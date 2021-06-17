@@ -1,8 +1,24 @@
 body {
-    color: #005677;
-    font-family: 'Times New Roman', Times, serif;
+    text-align:left;
+    
+    font-family:serif
+}
+header{
+    text-align: center;
+    background-color: #e5e5e5;
 }
 h1, h2{
         background-color: #C4C4C4;
         
     }
+h1{
+    color: #005677;
+}
+h2{
+    color: #005677;
+}
+footer {
+    background-color: #005677;
+    color: #C4C4C4;
+    text-align: center;
+}

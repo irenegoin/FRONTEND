@@ -1,0 +1,24 @@
+body{
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'inter',sans-serif;
+}
+.banner{
+    background-image: url(../Portada.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFFFFF;
+}
+section.banner ~ section{
+max-width: 60%
+margin: auto;
+}
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+i.fas{
+    color:
+    font-size: 3rem
+}
