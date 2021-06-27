@@ -1,9 +1,13 @@
 body {
-    color: #005677;
+    color: #6b0243;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 h1, h2{
-        background-color: #C4C4C4;
+        background-color: #7c7777;
         
     }
+footer{
+    background-color: black;
+    color:blanchedalmond;
+}
