@@ -1,0 +1,100 @@
+.descuentoveinte {
+    background-color: rgba(28, 209, 176, 1);
+    padding: 10px;
+}
+
+header {
+    background-color: rgba(0, 102, 159, 1);
+    height: 7vh;
+    padding: 20px;
+    position: sticky; top: 0px;
+}
+
+
+i {
+    color: red;
+}
+
+.batman {
+    width: 22vw;
+    height: 70vh;
+    position: relative;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.harley {
+    width: 22vw;
+    height: 70vh;
+    position: relative;
+    border-radius: 16px 16px 0px 0px;
+    /* display: flex; */
+}
+
+main {
+    display: flex;
+    height: 75.4vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    position: absolute;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.perfil > img {
+    border-radius: 50%;
+    position: absolute; left: 6vw; top: 20vh;
+    z-index: 10;
+    
+}
+
+.background-bat {
+    background-image: url("../images/back-batman.png");
+    background-size: cover;
+    height: 30vh;
+}
+
+.background-har {
+    background-image: url("../images/back-harley.png");
+    background-size: cover;
+    height: 30vh;
+}
+
+.texto{
+    position: absolute; top: 30vh;
+    text-align: center;
+    background-color: rgba(243, 243, 243, 1);
+    height: 40vh;
+
+}
+
+.texto > p {
+    text-align: left;
+    margin: 10px;
+}
+
+h2, p,button {
+    position: relative; top: 10vh;
+}
+
+button {
+    width: 7vw;
+    height: 5vh;
+    background-color: rgba(0, 102, 159, 1);
+    border-style: none;
+    color: white;
+}
+footer {
+    display: flex;
+    background-color: rgba(0, 102, 159, 1);
+    color: white;
+    height: 5vh;
+    align-items: center;
+}
+
+
+footer > span {
+    margin-left: 10px;
+}
