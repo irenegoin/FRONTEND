@@ -33,11 +33,10 @@ header, footer{
 
 .menu{
     gap: 15px;
-    padding: 0;
     justify-content:space-around;
-    position: absolute;
-    right: 50px;
-    width: 80%;
+    align-items:flex-end;
+    flex-wrap: nowrap;
+    /* align-self: stretch; */
     
 }
 main{
@@ -53,6 +52,10 @@ section.enviogratis{
     height: 300px;
     margin: 50px;
 
+}
+h1{
+    position: relative;
+    bottom: 50px;
 }
 
 section span{
