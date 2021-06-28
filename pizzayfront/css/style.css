@@ -1,0 +1,121 @@
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px
+
+}
+
+.pizza{
+    color: #39B24A;
+}
+
+.y{
+    color: white;
+}
+
+.front{
+    color: red;
+}
+
+header{ 
+    background-color: #222222;
+    
+}
+
+header, footer{
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+}
+
+.menu{
+    gap: 15px;
+    padding: 0;
+    justify-content:space-around;
+    align-items: flex-start;
+    position: relative;
+    width: 80%;
+    
+}
+main{
+    background-color: #E5E5E5;
+}
+
+section.enviogratis{
+    background-image: url('../img/delivery.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FC200C;
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+
+}
+
+section span{
+    color: #F3F3F3;
+}
+
+section{
+    width: 50%;
+    height: 400px;
+    padding: 35px;
+    margin: 35px;
+    
+}
+
+ul{
+    color: #F3F3F3;
+    ;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+section.podiopizzas{
+    display: flex;
+    background-image: url('../img/Rectangle\ 2.png');
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    padding: 35px;
+    margin: 50px;
+
+}
+
+section.podiopizzas h2{
+    text-align: center;
+    padding-top: 10px;
+    color: #FC200C;
+}
+
+section.podiopizzas h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+
+}
+
+.pizzafalling{
+    justify-self: flex-end;
+}
+
+footer{
+    height: 200px;
+}
+
+footer ul{
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    /* position:relative; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 130px;
+    justify-content: space-around;
+    top: 20px;
+    left: 10px;
+}
