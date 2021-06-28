@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px
@@ -31,8 +35,8 @@ header, footer{
     gap: 15px;
     padding: 0;
     justify-content:space-around;
-    align-items: flex-start;
-    position: relative;
+    position: absolute;
+    right: 50px;
     width: 80%;
     
 }
@@ -88,6 +92,8 @@ section.podiopizzas h2{
     text-align: center;
     padding-top: 10px;
     color: #FC200C;
+    position: relative;
+    bottom: 60px;
 }
 
 section.podiopizzas h3{
@@ -95,6 +101,9 @@ section.podiopizzas h3{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    position: relative;
+    right: 160px;
+    top: 30px;
     
 
 }
@@ -113,7 +122,7 @@ footer ul{
     /* position:relative; */
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 85%;
     height: 130px;
     justify-content: space-around;
     top: 20px;
