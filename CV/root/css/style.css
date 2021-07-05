@@ -1,13 +1,61 @@
 body {
-    color: #6b0243;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.mifoto{
+    z-index: 10;
+}
+   
+h1{
+    font-size: 30px;
+    position: relative;
+    bottom: 50px;
+    background-color: tomato;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
     text-align: center;
 }
-h1, h2{
-        background-color: #7c7777;
-        
-    }
+
+#datospersonales{
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    justify-content: space-around;
+    padding-right: 15px;
+}
+
+#formacionacademica{
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    justify-content: space-around;
+    padding-right: 15px;
+}
+
+#experiencialaboral{
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
 footer{
-    background-color: black;
+    background-color:rgb(77, 74, 74);
     color:blanchedalmond;
+    text-align: center;
 }
