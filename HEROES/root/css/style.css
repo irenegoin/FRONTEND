@@ -11,15 +11,14 @@ header {
 }
 
 
-i {
-    color: red;
-}
 
-.batman {
+
+ .batman {
     width: 22vw;
     height: 70vh;
     position: relative;
     border-radius: 16px 16px 0px 0px;
+    background-image: url(/HEROES/root/img/baticueva.png); 
 }
 
 .harley {
@@ -27,39 +26,38 @@ i {
     height: 70vh;
     position: relative;
     border-radius: 16px 16px 0px 0px;
-    /* display: flex; */
+     display: flex; 
+     background-image: url(/HEROES/root/img/fondoHarley.png);
+    background-repeat: no-repeat; 
+}
+
+.mujermaravilla{
+    width: 22vw;
+    height: 70vh;
+    position: relative;
+    border-radius: 16px 16px 0px 0px;
+    background-image: url(/HEROES/root/img/fondomujermar.png);  
 }
 
 main {
     display: flex;
-    height: 75.4vh;
+    height: 100vh;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.icon {
-    position: absolute;
-    margin: 10px;
-    font-size: 20px;
-}
+/* .icon { */
+    /* position: absolute; */
+    /* margin: 10px; */
+    /* font-size: 20px; */
+/* } */
 
 .perfil > img {
     border-radius: 50%;
     position: absolute; left: 6vw; top: 20vh;
     z-index: 10;
     
-}
-
-.background-bat {
-    background-image: url("../images/back-batman.png");
-    background-size: cover;
-    height: 30vh;
-}
-
-.background-har {
-    background-image: url("../images/back-harley.png");
-    background-size: cover;
-    height: 30vh;
 }
 
 .texto{
@@ -98,3 +96,4 @@ footer {
 footer > span {
     margin-left: 10px;
 }
+
