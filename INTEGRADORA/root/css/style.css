@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* HEADER */ 
+
+header{
+    background-color: #222222;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 100px;
+    flex-wrap: wrap;
+
+}
+
+h2{
+    color: #F3F3F3;
+    padding: 3px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+h2 span{
+    color: #D01418;
+}
+
+nav{
+}
+
+nav ul{
+    color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size:larger;
+    padding-left: 700px ;
+    padding-top: 10px;
+    padding-right: 120px;
+    
+
+}
+
+nav ul li{
+
+
+}
+
+.carrito{
+    height: 30px;
+    justify-content: center;
+    position: relative;
+    right: 90px;
+}
+
+/* MAIN */
+
+section.banner{
+    background-image: url('../img/img\ 1.png');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F3F3F3;
+    font-size: xx-large;
+    
+
+}
+
+section.class h1{
+
+}
+
+button:hover{
+    color: aqua;
+}
+
+p{
+    color: red;
+}
+
+section.class h3{
+
+}
+
+article{
+
+}
+
+article nav{
+
+}
+
+article nav ul{
+
+}
+
+article nav ul li{
+
+}
+
+/* FOOTER */
+
+h2{
+
+}
+
+p{
+
+}
+
+ul{
+
+}
+
+ul li{
+
+}
+
+/* @media (min-width: 460px){
+    body {		
+       background: red;
+    }
+} */

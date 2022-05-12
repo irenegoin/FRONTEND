@@ -1,99 +1,156 @@
-.descuentoveinte {
-    background-color: rgba(28, 209, 176, 1);
-    padding: 10px;
+/* Atributos globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: rgba(0, 102, 159, 1);
-    height: 7vh;
-    padding: 20px;
-    position: sticky; top: 0px;
+body{
+    font-family:'Roboto', sans-serif;
 }
 
+/* sección header */
 
-
-
- .batman {
-    width: 22vw;
-    height: 70vh;
-    position: relative;
-    border-radius: 16px 16px 0px 0px;
-    background-image: url(/HEROES/root/img/baticueva.png); 
+div.descuentos{
+    background-color: #1CD1B0;
+    padding: 10px 10px;
+}
+header.navegador{
+    background-color: #00669F;
+    padding: 28px 28px;
+    position: sticky;
+    top:0px;
+    z-index: 10;
 }
 
-.harley {
-    width: 22vw;
-    height: 70vh;
-    position: relative;
-    border-radius: 16px 16px 0px 0px;
-     display: flex; 
-     background-image: url(/HEROES/root/img/fondoHarley.png);
-    background-repeat: no-repeat; 
-}
+/* seccion main cartas */
 
-.mujermaravilla{
-    width: 22vw;
-    height: 70vh;
-    position: relative;
-    border-radius: 16px 16px 0px 0px;
-    background-image: url(/HEROES/root/img/fondomujermar.png);  
-}
-
-main {
+#cartas {
     display: flex;
-    height: 100vh;
-    justify-content: space-around;
-    align-items: center;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-/* .icon { */
-    /* position: absolute; */
-    /* margin: 10px; */
-    /* font-size: 20px; */
-/* } */
-
-.perfil > img {
-    border-radius: 50%;
-    position: absolute; left: 6vw; top: 20vh;
-    z-index: 10;
+section.carta{
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    background-color: #F3F3F3; 
+    margin: 0 20px;
     
 }
 
-.texto{
-    position: absolute; top: 30vh;
-    text-align: center;
-    background-color: rgba(243, 243, 243, 1);
-    height: 40vh;
-
+.imagenfondo {
+    width: 300px;
+    height: 190px;
 }
 
-.texto > p {
-    text-align: left;
-    margin: 10px;
+.like{
+position: absolute;
+top: 10px;
+left: 10px;
 }
 
-h2, p,button {
-    position: relative; top: 10vh;
+.carta .imagenfondo{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
-button {
-    width: 7vw;
-    height: 5vh;
-    background-color: rgba(0, 102, 159, 1);
-    border-style: none;
+.carta.batman .imagenfondo{
+    background-image: url('../img/baticueva.png');
+}
+
+.carta.harley .imagenfondo{ 
+    background-image: url('../img/fondoHarley.png');
+}
+
+.carta.maravilla .imagenfondo{
+    background-image: url('../img/fondomujermar.png');
+}
+
+.carta.superman .imagenfondo{
+    background-image: url('../img/fondosuperman.png');
+}
+
+.imagenperfil {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    top: 140px;
+    left: 90px;
+}
+
+.carta.batman .imagenperfil{
+    background-image: url('../img/perfil-batman.png');
+}
+
+.carta.harley .imagenperfil{
+    background-image: url('../img/perfil-harley.png');
+}
+
+.carta.carta.maravilla .imagenperfil{
+    background-image: url('../img/mujermar.png');
+}
+
+.carta.superman .imagenperfil{
+    background-image: url('../img/supermannuevo.png');
+}
+
+.contenido h2{
+    margin-top: 74px;
+}
+.contenido p{
+    margin-top: 10px;
+    text-align: left; 
+    height: 300px;
+    padding: 30px 30px 0 30px;
+}
+
+.vermas{
+    background-color: #00669F;
     color: white;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 10px;
 }
-footer {
+
+.vermas a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* sección footer */
+
+footer{
+    position: relative;
     display: flex;
-    background-color: rgba(0, 102, 159, 1);
-    color: white;
-    height: 5vh;
-    align-items: center;
+    background-color: #00669F;
+    color:white;
+    padding: 30px 0px;
+    justify-content: center;
 }
 
-
-footer > span {
-    margin-left: 10px;
+footer .logogit{
+    background-image: url('../img/github.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 165px;
+    height: 45px;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+    section.carta {
+        margin-bottom: 20px;
+    }
+}
