@@ -4,7 +4,8 @@
 
 body{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px
+    font-size: 16px;
+    margin-top: 20px;
 
 }
 
@@ -22,7 +23,8 @@ body{
 
 header{ 
     background-color: #222222;
-    
+    height: 200px;
+
 }
 
 header, footer{
@@ -41,6 +43,7 @@ header, footer{
 }
 main{
     background-color: #E5E5E5;
+    height: 500px;
 }
 
 section.enviogratis{
