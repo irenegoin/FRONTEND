@@ -6,7 +6,9 @@ body {
 header{
     text-align: center;
     background-color: #e5e5e5;
+    height: 400px;
 }
+
 h1, h2{
         background-color: #C4C4C4;
         
@@ -21,4 +23,5 @@ footer {
     background-color: #005677;
     color: #C4C4C4;
     text-align: center;
+
 }
