@@ -1,0 +1,135 @@
+* {
+    box-sizing: content-box;
+    margin: 0px;
+    padding:0px;
+    /* overflow-x: hidden; */
+
+}
+header{
+    font-family: 'Open Sans', sans-serif;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header img{
+    height: 40px;
+}
+header div ul li a{
+    text-decoration: none;
+    color: black;
+}
+header div ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+main{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+main .htmlycss{
+    display: flex;
+    flex-direction: column;
+}
+main h1{
+    font-size: 100px;
+    color: #db545a
+}
+main h2{
+    font-size: 100px;
+    font-weight: lighter;
+    
+}
+main .banner{
+    display:flex;
+    flex-direction: row;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+
+}
+
+main aside{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size:large;
+    line-height: 30px;
+    padding: 10px;
+
+}
+main .left{
+    position: relative;
+    right: 500px;
+    bottom: 100px;
+
+}
+main button{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    margin: 44px auto 0 0;
+    padding: 13px 55px 13px 54px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #db545a;
+
+}
+.fourArticles{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+}
+
+main article img{
+    height: 200px;
+}
+section h3{
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 60px auto 0;
+    color: #ffffff;
+    text-align: center;
+    margin-block-start: 50px;
+    margin-block-end: 70px;
+}
+.intuitive{
+
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("../images/default-image.jpg");
+    height: 600px;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 250px;
+    margin-top: 30px;
+
+}
+.intuitive p{
+    font-size: 1.25rem;
+    text-align: center;
+    color: #ffffff;
+}
+section .muestra{
+    display: flex;
+    flex-direction: row;
+}
+.muestra img{
+    height: 400px;
+    
+}
+

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header span {
+    padding: 0.5% 0 0 2%;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  header nav {
+    padding: 0.5% 2% 0 0;
+    width: 30%;
+  }
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    list-style: none;
+  }
+  
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  section div, section div#portada {
+    width: 45%;
+  }
+  section div:nth-child(0), section div#portada:nth-child(0) {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  section div.contenedor-botones, section div.contenedor-botones#portada {
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 4%;
+  }
+  section div#portada {
+    background-image: url("../img/banner\ 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 600px;
+  }
+  section div span, section div#portada span {
+    background-color: #70eaff;
+    height: 30px;
+    width: 100px;
+  }
+  section div h4, section div#portada h4 {
+    letter-spacing: 3px;
+    font-size: 50px;
+  }
+  section div p, section div#portada p {
+    color: grey;
+  }
+  section div button, section div#portada button {
+    background-color: #70eaff;
+    height: 50px;
+    width: 15%;
+    border-radius: 15px;
+    border-style: dotted;
+  }
+  section article {
+    background-color: #f6f6f4;
+    width: 30%;
+    height: 250px;
+  }
+  section article span {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1px;
+  }
