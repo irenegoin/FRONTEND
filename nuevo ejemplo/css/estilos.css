@@ -1,0 +1,151 @@
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+}
+body{
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+header h1{
+    
+    display: none;
+    
+}
+header{
+    background-image: url(../imagenes/logo_celular.png);
+    background-repeat: no-repeat;
+    background-size: 75% auto;
+    max-width: 100%;
+    height: 300px;
+    background-color: #373839;
+    background-position: center;
+}
+section{
+    text-align: center;
+    
+}
+section h2{
+    font-size: 2em;
+}
+section picture img{
+    border-radius: 50%;
+    border-color: black;
+    border-style:inset;
+    border-width: 1px;
+    padding: 15px;
+    
+}
+section picture{
+    margin: 10px;
+}
+section figcaption h3{
+    font-size: 1.8em;
+}
+section figcaption p{
+    font-size: 1em;
+    line-height: 25px;
+    
+}
+section figcaption{
+    line-height: 1px;
+}
+footer{
+    font-size: 0.8em;
+    text-align: center;
+    height: 30px;
+    color: grey;
+    
+}
+
+/* TABLET */
+
+@media screen and (min-width: 577px){
+
+    section picture img{
+        border-radius: 1% 1% 1% 1%;
+        
+    }
+    header{
+        background-size: 60% auto;
+    }
+}
+
+/* DESKTOP GENERAL */
+
+@media screen and (min-width: 900px) {
+
+    body{
+        max-width: 1200px;
+    }
+    header{
+        background-size: 50% auto;
+    }
+    section picture img{
+        border-width: 0px;
+        width: auto;
+        
+    }
+    
+    .thanos img{
+        float: left;
+    }
+    .spiderman img{
+        float: right;
+        background-color: white;
+    }
+    .capitan_america img{
+        float: left;
+    }
+    .spiderman figcaption{
+        float: left;
+        position: relative;
+        width: 50%;
+        bottom: 500px;
+    }
+    .capitan_america figcaption{
+        float: right;
+        position: relative;
+        width: 50%;
+        bottom: 550px;
+    }
+    footer{
+        position: relative;
+        top: 1800px;
+        right: 300px;
+    }
+    
+}
+
+/* DESKTOP CHICO */
+
+@media screen and (max-width: 1149px) {
+    section picture img{
+        width: 60%;
+    }
+}
+
+/* DESKTOP GRANDE */
+
+@media screen and (min-width: 1150px) {
+    section picture img{
+        width: 800px;
+        
+    }
+    .spiderman figcaption{
+        width: 30%;
+        position: relative;
+        bottom: 700px;
+    }
+    .capitan_america figcaption{
+        position: relative;
+        width: 30%;
+        bottom: 750px;
+    }
+    footer{
+        position: relative;
+        top: 2500px;
+        right: 450px;
+    }
+}
