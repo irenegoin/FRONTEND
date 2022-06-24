@@ -11,7 +11,7 @@ body{
 }
 section.banner ~ section{
 max-width: 60%
-margin: auto;
+/* margin: auto; */
 }
 h1{
     font-style: normal;
@@ -19,6 +19,5 @@ h1{
     font-size: 48px;
 }
 i.fas{
-    color:
-    font-size: 3rem
+    font-size: 3rem;
 }

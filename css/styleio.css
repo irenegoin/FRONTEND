@@ -2,11 +2,32 @@
     box-sizing: content-box;
     margin: 0px;
     padding:0px;
-}
-body{
+  }
+  body{
     font-family: 'Roboto', sans-serif;
-}
-header {
+  }
+  
+   
+  
+  div ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 100px 50px 100px;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    list-style: none;
+    color: black;
+    border: solid;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  div ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+  }
+  header {
     background-color: #f1f1f1;
     height: 325px;
     display: flex;
@@ -14,26 +35,74 @@ header {
     align-items: center;
     background-image: url('/css/img/1600w-c3PYha1JI9M.webp');
     background-repeat:round;
-    height: 500px;
-}
-header img {
+    height: 700px;
+    margin-bottom: 50px;
+  }
+  header img {
     width: 200px;
     border-inline-start-color: rgb(82, 161, 240);
     padding: 20px;
-}
-main section {
+    border-radius: 120px;
+  }
+  main h2{
+    font-size: 2em;
+  }
+  main h3{
+    font-size: 2em;
+  
+  }
+  .about{
+    width: 50%;
+    border:solid;
+    margin-left: 10px;
+    position: relative;
+    
+  }
+  .acerca{
+    width: 50%;
+    border:solid;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+  }
+  article{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background-color:bisque;
+  }
+  main section{
     display: flex;
     flex-wrap: wrap;
     padding: 50px 100px 50px 100px;
     justify-content: center;
     align-items: center;
     gap:20px;
-}
-footer {
+  }
+  .projects a{
+    display: flex;
+    background-image: url(/css/img/1600w-c3PYha1JI9M.webp);
+    padding: 50px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 30%;
+    margin-top: 30px;
+  }
+  
+  footer {
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
     font-size: 30px;
-}
+  }
